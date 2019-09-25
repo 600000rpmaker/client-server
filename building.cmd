@@ -1,4 +1,4 @@
-rem Скрипт требует наличие предустановленного python2 и компилятора visual studio
+rem Скрипт требует наличие предустановленного python и компилятора visual studio, а также pyinstaller
 echo "Building exe from py-scripts"
 "C:\Python27\Scripts\pyinstaller" -D -F .\*.py
 rem Получаем текущую директорию в переменную
