@@ -1,4 +1,4 @@
-import ntrip_caster
-import ntrip_server
-ntrip_server.start_server()
-ntrip_caster.start_caster()
+import module1
+import module2
+module1.start_module1()
+module1.start_module2()
